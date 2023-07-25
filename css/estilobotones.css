@@ -1,0 +1,30 @@
+.container{
+width: 80%;
+height: 80%;
+background-color: rgba(112, 187, 227, 0.623);
+}
+
+.botones{
+    width: 50%;
+    height: 40%;
+    background-color: rgba(44, 104, 136, 0.4);
+}
+
+.btn1{
+    background-color: rgba(85, 150, 176, 0.478);
+    color: rgb(255, 255, 255); /*color del texto*/
+    text-decoration: none; /*quita subrayado*/
+    padding: 10px;
+}
+
+.btn2{
+    background-color: rgba(81, 151, 232, 0.626);
+    color: rgb(0, 0, 0); 
+    width: 225px;
+    height: 70px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: lighter; /*negritas*/
+}
+
+
