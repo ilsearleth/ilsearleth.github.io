@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-image: url("uvas.jpeg");
+	background-size: 100vw 100vh;
+	background-attachment: fixed;
+	margin: 0;
+	font-family: dorsa;
+}
+
+form{
+	width: 490px;
+	margin: auto;
+	background-color:ffff;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin-top: 25px;
+	border-radius: 7px;
+}
+h2{
+	color: gainsboro;
+	text-align: center;
+	margin: 0;
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+h3{
+	color: ghostwhite;
+	text-align: center;
+	margin: 10px;
+	font-size: 11.1px;
+	margin-bottom: 10px;
+	font-family: aclonica;
+}
+input, textarea{
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 7px;
+	box-sizing: border-box;
+	font-size: 20px;
+	border: none;
+}
+textarea{
+	min-height: 100px;
+	max-height: 200px;
+	max-width: 100%;
+}
+#boton{
+	background: #31384a;
+	color: snow;
+	padding: 12px;
+}
+#boton:hover{
+	cursor: pointer;
+}
+
+@media (max-width:480px) {
+	form{
+		width: 100%;
+	}
+	
+}
+#map{
+	outline: 200px solid blue;
+	margin: 5em auto;
+	width: 50px;
+	height: 50px;
+}
+#map iframe{
+	width: 40%;
+	height: 40%;
+}
+.bt{
+    background-color: rgb(0, 0, 0);
+    width: 8%;
+    height: 90px;
+    float: right;
+}
